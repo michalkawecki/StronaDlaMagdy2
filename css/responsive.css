@@ -1,0 +1,18 @@
+@media all and (max-width:991px) {
+    #main-nav,
+    #main-nav.scrolled {
+        background-color: #FFF;
+    }
+    
+    #main-nav a,
+    #main-nav.scrolled a, 
+    #main-nav h3{
+        color: #0ed8d6;
+    }
+}
+
+@media all and (max-width:768px) {
+    #contact input:not([type="submit"]) {
+        margin-bottom: 20px;
+    }
+}
